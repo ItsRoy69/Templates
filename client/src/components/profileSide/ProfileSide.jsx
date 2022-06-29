@@ -1,7 +1,7 @@
 import React from 'react'
-import FollowersCard from '../FollowersCard/FollowersCard'
-import LogoSearch from '../LogoSearch/LogoSearch'
-import ProfileCard from '../ProfileCard/ProfileCard'
+import FollowersCard from '../followersCard/FollowersCard'
+import LogoSearch from '../logoSearch/LogoSearch'
+import ProfileCard from '../profileCard/ProfileCard'
 import './ProfileSide.css'
 const ProfileSide = () => {
   return (

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&display=swap');
+
 .Auth {
   display: flex;
   align-items: center;
@@ -21,13 +23,14 @@
 }
 
 .a-left > img {
-  width: 4rem;
-  height: 4rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 .Webname > h1 {
     font-size: 3rem;
     background-color: red;
+    font-family: 'Mali', cursive;
   
     /* Create the gradient. */
     background-image: var(--buttonBg);

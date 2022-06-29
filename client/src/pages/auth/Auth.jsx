@@ -56,8 +56,8 @@ const Auth = () => {
         <img src={Logo} alt="" />
 
         <div className="Webname">
-          <h1>ZKC Media</h1>
-          <h6>Explore the ideas throughout the world</h6>
+          <h1>Food Sender</h1>
+          <h6>Send your food throughout the world</h6>
         </div>
       </div>
 
@@ -93,7 +93,7 @@ const Auth = () => {
             <input
               required
               type="text"
-              placeholder="Username"
+              placeholder="Mail ID"
               className="infoInput"
               name="username"
               value={data.username}

@@ -1,8 +1,8 @@
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
-import Auth from "./pages/Auth/Auth";
-import Profile from "./pages/Profile/Profile";
+import Auth from "./pages/auth/Auth";
+import Profile from "./pages/profile/Profile";
 import { useSelector } from "react-redux";
 import Chat from "./pages/Chat/Chat";
 

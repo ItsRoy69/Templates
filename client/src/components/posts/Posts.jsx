@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { getTimelinePosts } from "../../actions/PostsAction";
-import Post from "../Post/Post";
+import Post from "../post/Post";
 import { useSelector, useDispatch } from "react-redux";
 import "./Posts.css";
 import { useParams } from "react-router-dom";
