@@ -1,0 +1,153 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+html,
+body{
+    margin: 0;
+    position: absolute !important;
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    position: absolute !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #c1e9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+}
+/* -----------------NAVBAR-------------------------- */
+/* .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    border-bottom: #ffffff 2px solid;
+}
+
+.nav img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav h1 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 14px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.nav button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 14px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.banner h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 45px;
+    color: #00eeff;
+    
+}
+
+.banner_arrow{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 1300px;
+    height: 400px;
+}
+
+.banner_arrow img{
+    width: 50px;
+    height: 50px;
+} */ 
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    border-bottom: #000000 2px solid;
+    background-color: #ffffff00;
+    z-index: 1;
+    
+}
+
+.nav-img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-head {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 14px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 900;
+}
+
+.nav-button{
+    background-color: #000000;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 14px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body, html {
+  width:100%;
+  height:100%;  
+  text-align:center;
+  scroll-behavior: smooth;
+}
+
+.banner-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size:70px;
+    font-weight: 900;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+#el {
+  position: absolute;
+  top: calc(100vh + 50px);
+  left: calc(50vw - 50px);   
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  
+}
