@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+html,
+body{
+    margin: 0;
+    position: absolute !important;
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    position: absolute !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #c1e9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+}
+/* -----------------NAVBAR-------------------------- */
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    border-bottom: #ffffff 2px solid;
+}
+
+.nav img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav h1 {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 14px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.nav button{
+    background-color: #000000;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 14px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+.banner h1{
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 113px;
+}
