@@ -24,7 +24,7 @@
     "prewatch": "npm run prebuild"
   },
   "engines": {
-    "node": "6.5.0"
+    "node": "18.12.1"
   },
   "keywords": [],
   "author": "",
